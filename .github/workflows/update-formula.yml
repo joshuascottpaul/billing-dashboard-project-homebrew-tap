@@ -64,7 +64,5 @@ jobs:
           git config user.name "GitHub Actions"
           git config user.email "actions@github.com"
           git add Formula/billing-dashboard.rb
-          git commit -m "Update billing-dashboard to ${VERSION}
-
-Co-authored-by: Qwen-Coder <qwen-coder@alibabacloud.com>"
+          git commit -m "Update billing-dashboard to ${VERSION}"
           git push
